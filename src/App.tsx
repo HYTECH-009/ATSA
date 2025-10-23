@@ -73,6 +73,41 @@ function App() {
                 <p className="text-gray-600">Industrial stainless steel exhaust canopy with grease filters and ventilation system for commercial kitchen safety.</p>
               </div>
             </div>
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="/unnamed copy.png" alt="Brick Pizza Oven" className="w-full h-64 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Brick Pizza Oven</h3>
+                <p className="text-gray-600">Traditional brick pizza oven with stainless steel base cabinet and sliding doors, perfect for authentic wood-fired cooking.</p>
+              </div>
+            </div>
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="/Gemini_Generated_Image_5tsbvd5tsbvd5tsb copy.png" alt="Metal Sculpture Monument" className="w-full h-64 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Metal Sculpture Monument</h3>
+                <p className="text-gray-600">Elegant stainless steel sculptural monument featuring intricate bending and polished finish, showcasing artistic metalwork expertise.</p>
+              </div>
+            </div>
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="/Gemini_Generated_Image_acy70qacy70qacy7.jpg" alt="BBQ Grill Station" className="w-full h-64 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">BBQ Grill Station</h3>
+                <p className="text-gray-600">Custom BBQ grill station with brick base and stainless steel canopy, combining traditional grilling with modern design elements.</p>
+              </div>
+            </div>
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="/Gemini_Generated_Image_exjfxaexjfxaexjf copy.png" alt="Spiral Staircase" className="w-full h-64 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Spiral Staircase</h3>
+                <p className="text-gray-600">Premium stainless steel spiral staircase with curved railings, demonstrating advanced bending and welding capabilities.</p>
+              </div>
+            </div>
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="/Gemini_Generated_Image_jfyylnjfyylnjfyy copy.png" alt="Service Kiosk" className="w-full h-64 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Service Kiosk</h3>
+                <p className="text-gray-600">Modern outdoor service kiosk with durable metal frame and protective panels, ideal for food service and retail applications.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
