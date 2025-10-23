@@ -34,78 +34,116 @@ function App() {
         </div>
       </section>
 
-      <section id="products" className="py-20 bg-white">
-        <div className="container mx-auto px-6">
+      <section id="products" className="py-20 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-gray-100 to-slate-100"></div>
+        <div className="absolute inset-0 opacity-30" style={{
+          backgroundImage: `
+            linear-gradient(to right, rgba(148, 163, 184, 0.15) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(148, 163, 184, 0.15) 1px, transparent 1px)
+          `,
+          backgroundSize: '40px 40px'
+        }}></div>
+        <div className="container mx-auto px-6 relative z-10">
           <h2 className="text-3xl font-bold text-[#3d4f5c] mb-12 text-center">Our Work</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/sink1 copy.png" alt="Double Sink Station" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Double Sink Station</h3>
                 <p className="text-gray-600">Professional stainless steel double sink station with storage shelf, perfect for commercial kitchens and food service operations.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_5gipdd5gipdd5gip.png" alt="Commercial Kitchen Hood" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Commercial Kitchen Hood</h3>
                 <p className="text-gray-600">Heavy-duty stainless steel kitchen exhaust hood with ventilation system, designed for professional restaurant environments.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_g4pezdg4pezdg4pe copy.jpg" alt="Service Counter" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Service Counter</h3>
                 <p className="text-gray-600">Custom-built stainless steel service counter with storage compartments and shelving, ideal for cafes and restaurants.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_jmj9n1jmj9n1jmj9 copy.png" alt="Professional Gas Range" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Professional Gas Range</h3>
                 <p className="text-gray-600">Four-burner commercial gas range with stainless steel construction and storage base, built for high-volume cooking.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_ymi0i4ymi0i4ymi0.png" alt="Exhaust Canopy" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Exhaust Canopy</h3>
                 <p className="text-gray-600">Industrial stainless steel exhaust canopy with grease filters and ventilation system for commercial kitchen safety.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/unnamed copy.png" alt="Brick Pizza Oven" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Brick Pizza Oven</h3>
                 <p className="text-gray-600">Traditional brick pizza oven with stainless steel base cabinet and sliding doors, perfect for authentic wood-fired cooking.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_5tsbvd5tsbvd5tsb copy.png" alt="Metal Sculpture Monument" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Metal Sculpture Monument</h3>
                 <p className="text-gray-600">Elegant stainless steel sculptural monument featuring intricate bending and polished finish, showcasing artistic metalwork expertise.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_acy70qacy70qacy7.jpg" alt="BBQ Grill Station" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">BBQ Grill Station</h3>
                 <p className="text-gray-600">Custom BBQ grill station with brick base and stainless steel canopy, combining traditional grilling with modern design elements.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_exjfxaexjfxaexjf copy.png" alt="Spiral Staircase" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Spiral Staircase</h3>
                 <p className="text-gray-600">Premium stainless steel spiral staircase with curved railings, demonstrating advanced bending and welding capabilities.</p>
               </div>
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/80 to-slate-900/80 backdrop-blur-xl rounded-lg transform transition-transform group-hover:scale-105"></div>
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
               <img src="/Gemini_Generated_Image_jfyylnjfyylnjfyy copy.png" alt="Service Kiosk" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#3d4f5c] mb-2">Service Kiosk</h3>
                 <p className="text-gray-600">Modern outdoor service kiosk with durable metal frame and protective panels, ideal for food service and retail applications.</p>
+              </div>
               </div>
             </div>
           </div>
